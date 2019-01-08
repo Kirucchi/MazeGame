@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1119854593416818}
+  m_IsPrefabAsset: 1
+--- !u!1 &1119854593416818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4403872433180340}
+  - component: {fileID: 114854610892069212}
+  m_Layer: 0
+  m_Name: Maze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4403872433180340
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119854593416818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114854610892069212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119854593416818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519553af3b3bd124bbcf62588f1824db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size:
+    x: 20
+    z: 20
+  cellPrefab: {fileID: 114856153178168144, guid: 1f5a7a2a28b29aa418e6b5de18779be9,
+    type: 2}
+  generationStepDelay: 0
+  passagePrefab: {fileID: 114038943334066662, guid: 7af643a2949e22249aad0650f6efcd4f,
+    type: 2}
+  wallPrefab: {fileID: 114023635389908342, guid: 8241dcc1a3e357b459b42b4061954a32,
+    type: 2}
+  LetterE: {fileID: 1354134554451074, guid: 84da73e3de116c34ea6ee34074ba90c9, type: 2}
+  LetterA: {fileID: 1546126604448010, guid: fafc1288bf1043e49af2bc7bcef01a9b, type: 2}
+  LetterS: {fileID: 1701669966081940, guid: 55dd14c36d2dd7c43a8ec0ee710d78b9, type: 2}
+  LetterY: {fileID: 1597576180628042, guid: 3ac16134e657bb24a87cc09922495011, type: 2}
